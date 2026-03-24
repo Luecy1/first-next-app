@@ -1,0 +1,3 @@
+export const Spacer = ({ size = 4 }: { size?: number }) => {
+    return <div style={{ height: `${size * 4}px`, width: `${size * 4}px` }} />;
+};
